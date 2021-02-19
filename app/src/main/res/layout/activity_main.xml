@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ed_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username(Required 5 Character)" />
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password(Required 8 Character)" />
+
+    <Button
+        android:id="@+id/btn_validate_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Validate Value(Toast)" />
+
+    <Button
+        android:id="@+id/btn_validate_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Validate Value(Dialog)" />
+
+</LinearLayout>
